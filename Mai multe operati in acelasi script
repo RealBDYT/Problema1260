@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    int b;
+
+    cout<<"Valoarea lui A"<<endl;
+    cin>>a;
+
+    cout<<"Valoarea lui B"<<endl;
+    cin>>b;
+
+    cout<<"Suma"<<" "<<a + b<<" "<<"Diferenta"<<" "<<a - b<<" "<<"Produsul"<<" "<<a * b<<" "<<"Catul"<<" "<<a / b<<endl;
+
+    return 0;
+}
